@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(14, 10, 10);
+}
+
+
+.sanctuary img {
+    border: 1px solid; color: black;
+    width: 300px; /* Largura da div */
+    height: auto; /* Altura da div */
+    position: absolute; /* Define a posição absoluta para a imagem dentro da div */
+    top: 30px; /* Move a imagem 50% para baixo em relação à div */
+    left: 25px; /* Move a imagem 50% para a direita em relação à div */
+
+}
+
+
+.dieforyou img {
+    border: 1px solid; color: rgb(0, 0, 0);
+    width: 300px; /* Largura da div */
+    height: auto; /* Altura da div */
+    position: absolute; /* Define a posição absoluta para a imagem dentro da div */
+    top: 30px; /* Move a imagem 50% para baixo em relação à div */
+    left: 350px; /* Move a imagem 50% para a direita em relação à div */
+}
+
+.willhe img {
+    border: 1px solid; color: black;
+    width: 300px; /* Largura da div */
+    height: auto; /* Altura da div */
+    position: absolute; /* Define a posição absoluta para a imagem dentro da div */
+    top: 30px; /* Move a imagem 50% para baixo em relação à div */
+    left: 675px; /* Move a imagem 50% para a direita em relação à div */
+}
+
+.glimpseofus img {
+    border: 1px solid; color: black;
+    width: 300px; /* Largura da div */
+    height: auto; /* Altura da div */
+    position: absolute; /* Define a posição absoluta para a imagem dentro da div */
+    top: 30px; /* Move a imagem 50% para baixo em relação à div */
+    left: 1000px; /* Move a imagem 50% para a direita em relação à div */
+}
+
+
+.text {
+color: aliceblue;
+   text-align: center;
+    position: relative;
+     top: 540px;
+}
+
+
+
+/* Estilos para dispositivos móveis com largura de tela menor ou igual a 768px */
+@media screen and (max-width: 768px) {
+    .container img {
+        display: flex;
+        flex-direction: column; /* Altera o layout para coluna */
+    }
+}
